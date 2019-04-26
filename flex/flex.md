@@ -157,7 +157,7 @@ Flexbox也是这个道理。它是一个一维布局模型，我们就要找到�
 
 ```css
 .container {
-    flex-direction: row(default) | row-reverse | column | column-reverse;
+    flex-direction: row /*default*/ | row-reverse | column | column-reverse;
 }
 ```
 
@@ -174,7 +174,7 @@ Flexbox也是这个道理。它是一个一维布局模型，我们就要找到�
 
 ```css
 .container {
-    flex-wrap: nowrap(default) | wrap | wrap-reverse;
+    flex-wrap: nowrap /*default*/ | wrap | wrap-reverse;
 }
 ```
 
@@ -204,7 +204,7 @@ Flexbox也是这个道理。它是一个一维布局模型，我们就要找到�
 
 ```css
 .container {
-    justify-content: flex-start(default) | flex-end | center | space-between | space-around | space-evenly;
+    justify-content: flex-start /*default*/ | flex-end | center | space-between | space-around | space-evenly;
 }
 ```
 
@@ -224,7 +224,7 @@ Flexbox也是这个道理。它是一个一维布局模型，我们就要找到�
 
 ```css
 .container {
-    align-items: stretch(default) | flex-start | flex-end | center | baseline;
+    align-items: stretch /*default*/ | flex-start | flex-end | center | baseline;
 }
 ```
 
@@ -248,7 +248,7 @@ Flexbox也是这个道理。它是一个一维布局模型，我们就要找到�
 
 ```css
 .container {
-    align-content: stretch(default) | flex-start | flex-end | center | space-between | space-around | space-evenly;
+    align-content: stretch /*default*/ | flex-start | flex-end | center | space-between | space-around | space-evenly;
 }
 ```
 
@@ -292,7 +292,7 @@ Flexbox也是这个道理。它是一个一维布局模型，我们就要找到�
 
 ```css
 .item {
-    order: <integer>; /* default is 0 */
+    order: <integer>; /*默认值是0*/
 }
 ```
 
@@ -306,7 +306,7 @@ Flexbox也是这个道理。它是一个一维布局模型，我们就要找到�
 
 ```css
 .item {
-    flex-grow: <number>; /* default is 0 */
+    flex-grow: <number>; /*默认值是0*/
 }
 ```
 
@@ -332,7 +332,7 @@ Flexbox也是这个道理。它是一个一维布局模型，我们就要找到�
 
 ```css
 .item {
-    flex-shrink: <number>; /* default is 1 */
+    flex-shrink: <number>; /*默认值是1*/
 }
 ```
 
@@ -365,7 +365,7 @@ Flexbox也是这个道理。它是一个一维布局模型，我们就要找到�
 
 ```css
 .item {
-    flex-basis: <length> | auto; /* default is auto */
+    flex-basis: <length> | auto; /*默认值是auto*/
 }
 ```
 
@@ -397,7 +397,7 @@ Flexbox也是这个道理。它是一个一维布局模型，我们就要找到�
 
 ```css
 .item {
-    align-self: auto(default) | stretch | flex-start | flex-end | center | baseline;
+    align-self: auto /*default*/ | stretch | flex-start | flex-end | center | baseline;
 }
 ```
 
@@ -415,4 +415,4 @@ Flexbox也是这个道理。它是一个一维布局模型，我们就要找到�
 
 ## 其他
 
-有一个小游戏 [Flexbox Froggy](https://flexboxfroggy.com/) 可以帮助你轻松的实践Flexbox的各项特性。
+有一个小游戏[Flexbox Froggy](https://flexboxfroggy.com/)可以帮助你轻松的实践Flexbox的各项特性。

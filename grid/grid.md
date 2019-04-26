@@ -439,7 +439,7 @@
 
 ```css
 .container {
-    justify-items: stretch(default) | start | end | center;
+    justify-items: stretch /*default*/ | start | end | center;
 }
 ```
 
@@ -467,7 +467,7 @@
 
 ```css
 .container {
-    align-items: stretch(default) | start | end | center;
+    align-items: stretch /*default*/ | start | end | center;
 }
 ```
 
@@ -489,7 +489,7 @@
 
 ```css
 .container {
-    justify-content: start(default) | end | center | stretch | space-around | space-between | space-evenly;
+    justify-content: start /*default*/ | end | center | stretch | space-around | space-between | space-evenly;
 }
 ```
 
@@ -517,7 +517,7 @@
 
 ```css
 .container {
-    align-content: start(default) | end | center | stretch | space-around | space-between | space-evenly;
+    align-content: start /*default*/ | end | center | stretch | space-around | space-between | space-evenly;
 }
 ```
 
@@ -595,7 +595,7 @@
 
 ```css
 .container {
-    grid-auto-flow: row(default) | column | dense | row dense | column dense;
+    grid-auto-flow: row /*default*/ | column | dense | row dense | column dense;
 }
 ```
 
@@ -681,10 +681,10 @@
 
 ```css
 .item {
-    grid-column-start: auto(default) | <number> | <name> | span <number> | span <name>;
-    grid-column-end: auto(default) | <number> | <name> | span <number> | span <name>;
-    grid-row-start: auto(default) | <number> | <name> | span <number> | span <name>;
-    grid-row-end: auto(default) | <number> | <name> | span <number> | span <name>;
+    grid-column-start: auto /*default*/ | <number> | <name> | span <number> | span <name>;
+    grid-column-end: auto /*default*/ | <number> | <name> | span <number> | span <name>;
+    grid-row-start: auto /*default*/ | <number> | <name> | span <number> | span <name>;
+    grid-row-end: auto /*default*/ | <number> | <name> | span <number> | span <name>;
 }
 ```
 
@@ -787,7 +787,7 @@
     grid-gap: 10px;
 }
 .item.c {
-    grid-area: a; /* 或者 grid-area: 1 / 1 / 2 / 2; */
+    grid-area: a; /*或者 grid-area: 1 / 1 / 2 / 2;*/
 }
 ```
 
@@ -799,7 +799,7 @@
 
 ```css
 .item {
-    justify-self: stretch(default) | start | end | center;
+    justify-self: stretch /*default*/ | start | end | center;
 }
 ```
 
@@ -811,7 +811,7 @@
 
 ```css
 .item {
-    align-self: stretch(default) | start | end | center;
+    align-self: stretch /*default*/ | start | end | center;
 }
 ```
 
@@ -829,6 +829,6 @@
 
 ## 其他
 
-有一个小游戏 [Grid Garden](https://cssgridgarden.com) 可以帮助你轻松的实践`Grid Layout`的各项特性。
+有一个小游戏[Grid Garden](https://cssgridgarden.com)可以帮助你轻松的实践`Grid Layout`的各项特性。
 
-还有一个网站 [GridByExample](https://gridbyexample.com)，号称所有你需要知道的`Grid Layout`知识都在这里。
+还有一个网站[GridByExample](https://gridbyexample.com)，号称所有你需要知道的`Grid Layout`知识都在这里。
