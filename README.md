@@ -1,12 +1,22 @@
 > 代号**马蹄铁**。以专题为单位的学习。
 
-下期专题预告: Async专题
+下期专题预告: prototype专题
 
 ```
 个人博客入口：https://veedrin.com
 
 如果觉得对你有帮助，欢迎点Star或者来我的博客亲口告诉我
 ```
+
+#### 2019-05 | Async专题
+
+🍧 [事件循环](https://github.com/veedrin/horseshoe/blob/master/async/事件循环.md)
+
+🍧 [迟到的承诺](https://github.com/veedrin/horseshoe/blob/master/async/迟到的承诺.md)
+
+🍧 [状态机](https://github.com/veedrin/horseshoe/blob/master/async/状态机.md)
+
+🍧 [也许是终极异步解决方案](https://github.com/veedrin/horseshoe/blob/master/async/也许是终极异步解决方案.md)
 
 #### 2019-03 | Grid专题
 
