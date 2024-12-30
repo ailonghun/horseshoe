@@ -109,7 +109,7 @@
 
 如果某条栅格轨道的值是`auto`，默认情况下该栅格轨道会充满栅格容器的富余空间。
 
-![](https://github.com/ailonghun/horseshoe/edit/master/grid/image/02.png)
+![](https://github.com/ailonghun/horseshoe/blob/master/grid/image/02.png)
 
 ```css
 .container {
@@ -125,7 +125,7 @@
 
 但是如果声明了`justify-content`(后面会讲到)不为`stretch`，那`auto`会表现为以栅格项目的长度为准。
 
-![](https://github.com/ailonghun/horseshoe/edit/master/grid/image/03.png)
+![](https://github.com/ailonghun/horseshoe/blob/master/grid/image/03.png)
 
 ```css
 .container {
@@ -148,7 +148,7 @@
 
 它的计算公式是这样的，首先减去非`fr`单位的长度，以富余空间为总长度，以声明的`fr`数量总和为分母，以自身声明的`fr`数量为分子，求得自身所占的长度。
 
-![](https://github.com/ailonghun/horseshoe/edit/master/grid/image/04.png)
+![](https://github.com/ailonghun/horseshoe/blob/master/grid/image/04.png)
 
 ```css
 .container {
@@ -190,7 +190,7 @@
 
 它接受一个长度单位的参数。
 
-![](https://github.com/ailonghun/horseshoe/edit/master/grid/image/05.png)
+![](https://github.com/ailonghun/horseshoe/blob/master/grid/image/05.png)
 
 ```css
 .container {
@@ -211,7 +211,7 @@
 
 它接受两个参数，第一个参数是重复的次数，第二个参数是栅格轨道的宽度。
 
-![](https://github.com/ailonghun/horseshoe/edit/master/grid/image/06.png)
+![](https://github.com/ailonghun/horseshoe/blob/master/grid/image/06.png)
 
 ```css
 .container {
@@ -228,7 +228,7 @@
 
 除此之外，第二个参数还可以是`minmax`函数、`fit-content`函数，或者`min-content`、`max-content`、`auto`关键字。
 
-![](https://github.com/ailonghun/horseshoe/edit/master/grid/image/07.png)
+![](https://github.com/ailonghun/horseshoe/blob/master/grid/image/07.png)
 
 ```css
 .container {
@@ -241,7 +241,7 @@
 
 第一个参数也有两个关键字`auto-fill`和`auto-fit`。
 
-![](https://github.com/ailonghun/horseshoe/edit/master/grid/image/08.png)
+![](https://github.com/ailonghun/horseshoe/blob/master/grid/image/08.png)
 
 ```css
 .container {
@@ -252,7 +252,7 @@
 }
 ```
 
-![](https://github.com/ailonghun/horseshoe/edit/master/grid/image/09.png)
+![](https://github.com/ailonghun/horseshoe/blob/master/grid/image/09.png)
 
 ```css
 .container {
@@ -324,7 +324,7 @@
 
 或者我偏不凑一个长方体呢？比如第一行两个`main`，第二行三个`main`。
 
-![](https://github.com/ailonghun/horseshoe/edit/master/grid/image/10.png)
+![](https://github.com/ailonghun/horseshoe/blob/master/grid/image/10.png)
 
 ```css
 .container {
@@ -443,7 +443,7 @@
 }
 ```
 
-![](https://github.com/ailonghun/horseshoe/edit/master/grid/image/11.png)
+![](https://github.com/ailonghun/horseshoe/blob/master/grid/image/11.png)
 
 ```css
 .container {
@@ -493,7 +493,7 @@
 }
 ```
 
-![](https://github.com/ailonghun/horseshoe/edit/master/grid/image/12.png)
+![](https://github.com/ailonghun/horseshoe/blob/master/grid/image/12.png)
 
 ```css
 .container {
@@ -546,7 +546,7 @@
 }
 ```
 
-![](https://github.com/ailonghun/horseshoe/edit/master/grid/image/13.png)
+![](https://github.com/ailonghun/horseshoe/blob/master/grid/image/13.png)
 
 ```css
 .container {
@@ -561,7 +561,7 @@
 
 编外栅格单元的宽度默认值都是auto。也就是说，以宽度举例，如果栅格容器的宽度大于栅格系统的宽度，那编外栅格单元会平分富余空间的宽度，否则编外栅格单元就以内容的宽度为宽度了。
 
-![](https://github.com/ailonghun/horseshoe/edit/master/grid/image/14.png)
+![](https://github.com/ailonghun/horseshoe/blob/master/grid/image/14.png)
 
 ```css
 .container {
@@ -573,7 +573,7 @@
 }
 ```
 
-![](https://github.com/ailonghun/horseshoe/edit/master/grid/image/15.png)
+![](https://github.com/ailonghun/horseshoe/blob/master/grid/image/15.png)
 
 ```css
 .container {
@@ -601,7 +601,7 @@
 
 顾名思义，`row`就是按行排列，`column`就是按列排列。
 
-![](https://github.com/ailonghun/horseshoe/edit/master/grid/image/16.png)
+![](https://github.com/ailonghun/horseshoe/blob/master/grid/image/16.png)
 
 ```css
 .container {
@@ -613,7 +613,7 @@
 }
 ```
 
-![](https://github.com/ailonghun/horseshoe/edit/master/grid/image/17.png)
+![](https://github.com/ailonghun/horseshoe/blob/master/grid/image/17.png)
 
 ```css
 .container {
@@ -629,7 +629,7 @@
 
 这么干的后果就是没有明确指定位置的栅格项目可能不按顺序排列。
 
-![](https://github.com/ailonghun/horseshoe/edit/master/grid/image/18.png)
+![](https://github.com/ailonghun/horseshoe/blob/master/grid/image/18.png)
 
 ```css
 .container {
@@ -643,7 +643,7 @@
 }
 ```
 
-![](https://github.com/ailonghun/horseshoe/edit/master/grid/image/19.png)
+![](https://github.com/ailonghun/horseshoe/blob/master/grid/image/19.png)
 
 ```css
 .container {
@@ -713,7 +713,7 @@
 - `span <number>`指的是跨度为几。这里的数字不再是第几条栅格线，而是跨越几条几条栅格线。
 - `span <name>`指的是跨越到该名称的栅格线为止。它和仅仅是`name`有什么区别呢？如果`start`比`end`靠后，仅仅是`name`的情况会像前面说的一样，开始到结束的方向就相反；而`span <name>`的情况则会一直往后找，毕竟找不到嘛，所以就跨越到最后一条栅格线。其中的区别在于愣头青的程度对不对？
 
-![](https://github.com/ailonghun/horseshoe/edit/master/grid/image/20.png)
+![](https://github.com/ailonghun/horseshoe/blob/master/grid/image/20.png)
 
 ```css
 .container {
@@ -731,7 +731,7 @@
 }
 ```
 
-![](https://github.com/ailonghun/horseshoe/edit/master/grid/image/21.png)
+![](https://github.com/ailonghun/horseshoe/blob/master/grid/image/21.png)
 
 ```css
 .container {
@@ -774,7 +774,7 @@
 
 当然你也可以使用栅格线的方式来合围一个栅格区域，所以它也相当于`grid-[column|row]-[start|end]`的终极集合属性。要特别注意声明的顺序。
 
-![](https://github.com/ailonghun/horseshoe/edit/master/grid/image/22.png)
+![](https://github.com/ailonghun/horseshoe/blob/master/grid/image/22.png)
 
 ```css
 .container {
