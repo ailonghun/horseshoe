@@ -18,7 +18,7 @@
 
 `Grid Layout`唯一涉及到自定义方向的属性是`grid-auto-flow`，它的意思是当格子没有显式声明位置的时候，排列顺序的方向如何确定，是按列排呢还是按行排。这个属性后面会细讲。
 
-![](https://raw.githubusercontent.com/veedrin/horseshoe/master/grid/image/01.png)
+![](./01.png)
 
 #### 容器与项目
 
